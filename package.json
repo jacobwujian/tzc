@@ -1,0 +1,55 @@
+{
+  "name": "tzcqd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "wx": "vue-cli-service build --mode dev",
+    "sit": "vue-cli-service build --mode sit",
+    "api": "node ./src/api/format.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "ant-design-vue": "^1.6.5",
+    "axios": "^0.19.2",
+    "china-division": "^2.3.1",
+    "core-js": "^3.6.5",
+    "echarts": "^5.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.debounce": "^4.0.8",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-ls": "^3.2.1",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "wangeditor": "^4.7.0" ,
+    "xlsx-style": "^0.8.13",
+    "file-saver": "^2.0.5",
+    "xlsx": "^0.17.4",
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "compression-webpack-plugin": "^5.0.2",
+    "base-64": "^1.0.0",
+    "script-loader": "0.7.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
